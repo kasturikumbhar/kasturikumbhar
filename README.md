@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/kasturi-kumbhar/">LinkedIn</a> ·
   <a href="https://github.com/kasturikumbhar">GitHub</a>
 </p>
 
