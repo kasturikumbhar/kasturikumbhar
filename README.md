@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/kasturikumbhar">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=2F80ED&center=true&vCenter=true&width=650&lines=Senior+Backend+Software+Engineer;Java+%7C+Python+%7C+Spring+Boot+%7C+AWS;Distributed+Systems+%7C+Performance+Engineering;Building+Local-first+AI+Applications" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=2F80ED&center=true&vCenter=true&width=650&lines=Senior+Backend+Software+Engineer;Java+%7C+Python+%7C+Spring+Boot;AWS+%7C+Distributed+Systems+%7C+Data+Processing" alt="Typing SVG" />
   </a>
 </p>
 
@@ -13,123 +13,109 @@
 
 ---
 
-### 🧭 About Me
+### About Me
 
-I'm a Senior Backend Software Engineer at **JPMorgan Chase & Co.**, with 6+ years of experience building and improving backend services, distributed systems, and high-volume data-processing platforms.
-
-I enjoy solving problems that go beyond implementation: investigating production failures, identifying performance bottlenecks, evaluating architecture trade-offs, and making systems more reliable and efficient.
-
-Recently, I've also been exploring local-first AI applications, retrieval-augmented generation (RAG), hybrid search, and techniques for improving the relevance and reliability of LLM-powered systems.
-
-- 💻 **Core stack:** Java, Python, Spring Boot, REST APIs, SQL
-- ☁️ **Cloud & infrastructure:** AWS, Docker, Terraform
-- ⚙️ **Engineering focus:** Distributed systems, performance, scalability, reliability
-- 🤖 **Applied AI:** RAG, hybrid retrieval, reranking, local LLMs
-- 🚀 **Current project:** PrepAI — a personalized, local-first AI interview coach
-- 🎓 **Education:** B.E. Computer Science, University of Mumbai · 9.25 CGPI
-- 🏆 **Achievement:** Second runner-up, JPMorgan Chase Global AWS DeepRacer Championship 2021
+Senior Backend Software Engineer with 6 years of experience at JPMorgan Chase building and modernizing enterprise backend systems, asynchronous processing platforms, and data-intensive applications. Experienced in Java, Spring Boot, AWS, SQL, distributed systems, and production performance engineering. Delivered measurable improvements in cloud compute efficiency, JVM memory consumption, API latency, and data-processing performance. Experienced in production incident resolution, technical design reviews, and cross-team platform enablement.
 
 ---
 
-### 📊 Engineering Highlights
+### Skills
 
-A few examples of engineering improvements from my professional experience:
+#### Languages & Backend
+- Java
+- Python
+- SQL
+- PySpark
+- Spring Boot
+- Spring WebFlux
+- REST APIs
+- Microservices
 
-| Area | Impact |
-|---|---|
-| 🚀 Cloud scalability | Reduced peak compute capacity by approximately 85% through improved AWS ECS autoscaling |
-| 🧠 JVM performance | Reduced JVM memory usage by over 75% and eliminated recurring out-of-memory failures |
-| 📈 Data processing | Migrated a workflow processing 14M+ records to Snowflake, reducing runtime from 2.5 hours to 55 minutes |
-| 🏗️ High-volume systems | Contributed to a statement-generation platform handling 750K+ requests during monthly peak periods |
-| ⚡ Query optimization | Improved a data-access path from 7+ minutes to under 3 seconds |
+#### AWS & Infrastructure
+- ECS
+- EKS
+- Lambda
+- SQS
+- S3
+- Glue
+- EMR
+- StepFunctions
+- Route53
+- Cloudwatch
+- IAM
+- Docker
+- Terraform
+- CI/CD
 
-These are examples of my professional work. Public repositories focus on independently shareable projects rather than proprietary company code.
+#### Data & Observability
+- Snowflake
+- Aurora
+- DynamoDB
+- Oracle
+- Redshift
+- Datadog
+- Dynatrace
+- Splunk
+- Grafana
 
----
-
-### 🚀 Featured Projects
-
-#### 🤖 PrepAI — Local-first AI Interview Coach
-
-A personal AI interview preparation assistant that searches my study notes and generates context-aware answers grounded in the retrieved material.
-
-**The problem:** Generic LLM answers can be disconnected from personal study material. Follow-up questions can lose context, and irrelevant retrieval results can lead to misleading answers.
-
-**What I built:**
-- 🧩 Semantic chunking that preserves topic boundaries and source metadata.
-- 🔎 Hybrid retrieval combining dense vector search with BM25 keyword search.
-- 🔀 Reciprocal Rank Fusion (RRF) to combine complementary retrieval rankings.
-- 🎯 Cross-encoder reranking to improve the relevance of retrieved passages.
-- 💬 Query rewriting to resolve follow-up questions using conversation history.
-- 📚 Source citations and confidence-aware fallback behavior.
-- 📡 FastAPI observability middleware with request tracing and latency measurements.
-- 💾 ChromaDB for semantic retrieval and SQLite for structured study progress.
-- 🖥️ Local LLM and embedding inference through Ollama.
-
-**Tech stack:** Python · FastAPI · ChromaDB · SQLite · Ollama · PyTorch · sentence-transformers
-
-**Engineering focus:** Retrieval quality, grounded generation, evaluation, observability, and modular design.
-
-➡️ [Explore PrepAI](https://github.com/kasturikumbhar/interview-prep-ai)
-
-#### 🏗️ Distributed Systems
-
-A collection of notes and examples covering distributed-systems concepts, reliability, consistency, and the design challenges behind scalable services.
-
-➡️ [Explore DistributedSystems](https://github.com/kasturikumbhar/DistributedSystems)
-
-#### 📐 System Design
-
-Structured system-design notes covering architectural patterns, component interactions, trade-offs, and approaches to designing scalable backend systems.
-
-➡️ [Explore SystemDesign](https://github.com/kasturikumbhar/SystemDesign)
+#### Concepts
+- Event-Driven Architecture
+- Distributed Systems
+- Concurrency
+- Idempotency
+- JVM Tuning
+- Query Optimization
 
 ---
 
-### 🛠️ Technical Skills
+### Professional Experience
 
-**Languages & Frameworks**
+#### JPMorgan Chase & Co. (Mumbai) | Aug 2020 – Present
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+##### Software Engineer III (Senior Associate) | Jan 2026 – Present
+- Redesigned ECS capacity management around SQS queue depth, replacing memory-driven scaling that could grow to ~100 tasks and reducing peak compute capacity by ~85%.
+- Extended this scaling approach to other applications with similar workload patterns.
+- Re-engineered the report-generation platform to handle monthly bursts of ~750K+ requests arriving simultaneously, alongside ~65K+ PDFs generated daily, using parallel processing, independently scalable services, and disk-based processing.
+- Led JVM performance optimization by eliminating duplicate objects and fixing object-retention and disk-resource cleanup issues in asynchronous processing. Reduced JVM memory consumption by >75% and eliminated recurring out-of-memory failures.
+- Improved production reliability with ECS task protection, graceful shutdown, timeout and connection-pool tuning, and Datadog monitoring, metrics, and alerting.
+- Served as technical point of contact, leading architecture discussions and design/code reviews, and driving adoption of shared backend capabilities across teams.
 
-**Cloud & Infrastructure**
+##### Software Engineer II (Associate) | Jan 2023 – Jan 2026
+- Re-architected a synchronous report-generation workflow into an asynchronous, template-driven platform on open-source JasperReports, removing licensing cost and supporting language-agnostic processing of 50+ report types.
+- Built a platform-independent data-access capability for clients and resolved a severe performance regression caused by multi-table joins over millions of records, reducing API response times from minutes to milliseconds through query optimization, indexing redesign, partitioning, and selective denormalization.
+- Built a merchant-facing backend capability to load subscription data and trigger automated workflows based on subscription state, enabling value-added reporting across merchant accounts.
+- Migrated a data-processing workflow handling 14M+ records from PySpark on AWS Glue to Snowflake, reducing end-to-end processing time from ~2.5 hours to ~55 minutes and lowering compute costs.
+- Enhanced a reactive Spring WebFlux report-download service delivering large reports through S3 pre-signed URLs, improving error handling across authentication, authorization, S3 access, and downstream processing to accelerate troubleshooting.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Data & Storage**
-
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge)
-
-**AI & Retrieval**
-
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-Hybrid_Search-blue?style=for-the-badge)
-
-**Observability**
-
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+##### Software Engineer I | Aug 2020 – Jan 2023
+- Developed backend features for legacy on-premises applications using Java, Spring, and Oracle SQL, with Control-M for job scheduling, supporting high-volume transaction data processing.
+- Extended new reporting capabilities to existing merchants on the legacy platform by integrating APIs with the modern platform and implementing cursor-based pagination for efficient data retrieval.
+- Built an automated SIT reconciliation workflow using AWS Step Functions, Glue, Lambda, and EMR to replicate the production data flow and enable end-to-end validation without modifying the existing pipeline.
 
 ---
 
-### 🎯 Current Focus
+### Projects
 
-- Building and evaluating retrieval pipelines for PrepAI.
-- Deepening my understanding of distributed systems, consistency, idempotency, and fault tolerance.
-- Exploring reliable AI integrations and local-first LLM applications.
-- Designing backend services with a focus on scalability, performance, and operational excellence.
+#### PrepAI – Local-First AI Interview Coach (FastAPI, ChromaDB, Ollama, RAG)
+- Built a local-first RAG pipeline using semantic chunking, hybrid BM25 + dense retrieval, RRF fusion, and cross-encoder reranking, achieving a 93% Hit Rate.
+- Developed an interview engine with 6 LLM personas, conversational query rewriting, session persistence, and confidence-gated source citations.
+
+#### Enterprise AI Search & Mobility Chatbot (Python, AWS, Hugging Face, Rasa)
+- Built an enterprise RAG search engine using Hugging Face embeddings to index and query unstructured Confluence knowledge.
+- Developed a Rasa-based mobility chatbot with intent classification during an internal hackathon.
+
+#### AWS DeepRacer Championship (Reinforcement Learning, Python, AWS)
+- Secured 2nd Runner-Up at the JPMorgan Chase Global DeepRacer Championship and competed in the AWS DeepRacer Global Finals (2021).
 
 ---
 
-### 📜 Certifications
+### Education
+
+Bachelor of Engineering, Computer Science – University of Mumbai | 2016 – 2020 | 9.25 CGPI
+
+---
+
+### Certifications
 
 - AWS Certified Solutions Architect
 - HashiCorp Terraform Associate
@@ -137,16 +123,6 @@ Structured system-design notes covering architectural patterns, component intera
 
 ---
 
-### 🤝 Let's Connect
-
-I'm interested in connecting with engineers working on backend platforms, distributed systems, cloud infrastructure, and applied AI.
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/kasturi-kumbhar/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
-
-<p align="center">
-  <i>Building reliable systems, solving challenging engineering problems, and exploring practical applications of AI.</i>
+  <i>Building reliable backend systems, solving complex engineering problems, and driving measurable platform improvements.</i>
 </p>
